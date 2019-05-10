@@ -3,7 +3,7 @@
 ### Gitpod Preview in Browser: python3 -m http.server 3000
 
 ## Project Description
-In this unit, you will work with your team to create a Giphy App. The Giphy App will take a search term as an input and display a random Gif in a thumbnail on the screen. To create this project, you will learn the anatomy of an API Request, use AJAX to make a simple GET request, handle a JSON response object, and use jQuery to display a gif.
+In this unit, you will work with your team to create a Giphy App. The Giphy App will take a search term as an input and display a random Gif in a thumbnail on the screen. To create this project, you will learn the anatomy of an API Request, use the fetch() method to write an API request, handle a JSON response object, and use jQuery to display a gif.
 
 Follow the steps below!
 Make sure to check off your items as you complete them. [ ] => [x]
@@ -21,16 +21,16 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [ ] Include a heading for your page and write instructions for your user
 
 ### JS
-- [ ] Create  an AJAX function inside the click handler
+- [ ] Create  a fetch() request inside the click handler
 - [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
-- [ ] Console log the response from your AJAX call
+- [ ] Console log the response from your API call
 
 ### Wrap
 - [ ] Push your changes!
 
 ## Day 2
 ### JS
-- [ ] Write the jQuery needed to display the original image from your AJAX call to the screen
+- [ ] Write the jQuery needed to display the original image from your API call to the screen
 - [ ] Take user input from the input box when button is clicked
 - [ ] Update the API request url based on user input
 - [ ] Display the updated image to the screen
