@@ -22,7 +22,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ### JS
 - [ ] Create  a fetch() request inside the click handler
-- [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
+- [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=rQrXp8Skecms5IYqoh0BS4HeQW9L35LY
 - [ ] Console log the response from your API call
 
 ### Wrap
