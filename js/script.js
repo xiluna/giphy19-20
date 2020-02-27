@@ -1,8 +1,21 @@
 /* global $ */
-
 console.log('hi');
 
 $('h1').click(function(){
     $('h1').css('color', 'green');
     $('h1').text('Ready to Code');
+});
+
+$(".searchBtn").click(function() {
+  var searchInput = $('input').val();
+  var requestUrl = 'https://api.giphy.com/v1/gifs/search?q=' + searchInput + '&rating=pg&api_key=rQrXp8Skecms5IYqoh0BS4HeQW9L35LY';
+  fetch(requestUrl)
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      console.log(data);
+      var gif =  data.data[0].images.original.url;
+      $('body').append('<img src ='+ gif + '>');
+    });
 });
